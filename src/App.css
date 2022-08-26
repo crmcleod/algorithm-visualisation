@@ -1,7 +1,39 @@
-.App {
+html {
   text-align: center;
+  background-color: rgba(100, 166, 190, 0.441);
 }
+.App *{
+display: flex;
+flex-direction: row;
 
+}
+#bubble-sort h2{
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  font-size: 50px;
+  z-index: 1;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.296);
+}
+#selection-sort h2{
+  position: absolute;
+  top: 250px;
+  left: 0rem;
+  font-size: 50px;
+  z-index: 1;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.296);
+}
+#insertion-sort h2{
+  position: absolute;
+  top: 500px;
+  left: 0rem;
+  font-size: 50px;
+  z-index: 1;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.296);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
